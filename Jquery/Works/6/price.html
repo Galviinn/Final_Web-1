@@ -1,0 +1,65 @@
+<head>
+    <title>Price Table</title>
+    <script src="price.js"></script>
+    <link rel="stylesheet" href="price.css">
+</head>
+<body>
+    <div class="main">
+        <h2>Price Table with JS</h2><br>
+
+        <!-- nb = Nama Barang
+            jml = Jumlah Barang
+            hrg = Harga Barang
+        -->
+
+        <p>Item 1:</p>
+        <p>Name: <input type="text" id="nb1"></p>
+        <p>Item(s): <input id="jml1"></p>
+        <p>Price: <input id="hrg1"></p>
+        <br>
+
+        <p>Item 2:</p>
+        <p>Name: <input type="text" id="nb2"></p>
+        <p>Item(s): <input id="jml2"></p>
+        <p>Price: <input id="hrg2"></p>
+        <br>
+
+        <p>Item 3:</p>
+        <p>Name: <input type="text" id="nb3"></p>
+        <p>Item(s): <input id="jml3"></p>
+        <p>Price: <input id="hrg3"></p>
+        <br>
+
+        <button onclick="PriceFunc()">Calculate!</button><br><br>
+
+        <table>
+            <tr>
+                <td style="color: rgb(168, 168, 168);">Name</td>
+                <td style="color: rgb(168, 168, 168);">Price</td>
+                <td style="color: rgb(168, 168, 168);">Item(s)</td>
+                <td style="color: rgb(168, 168, 168);">Sub-Total</td>
+            </tr>
+            <tr>
+                <td id="n1"></td>
+                <td id="p1"></td>
+                <td id="i1"></td>
+                <td id="st1"></td>
+            </tr>
+            <tr>
+                <td id="n2"></td>
+                <td id="p2"></td>
+                <td id="i2"></td>
+                <td id="st2"></td>
+            </tr>
+            <tr>
+                <td id="n3"></td>
+                <td id="p3"></td>
+                <td id="i3"></td>
+                <td id="st3"></td>
+            </tr>
+        </table>
+        <p>Total:<p id="Total" style="color: rgb(224, 75, 15);"></p></p>
+    </div>
+</body>
+
+<!-- Copyright Galvin @ Kalbis 2021 -->

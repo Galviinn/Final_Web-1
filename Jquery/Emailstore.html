@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Container with JQUERY</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="jquery.dataTables.min.css">
+
+    <script src="jquery-3.5.1.js"></script>
+    <script src="jquery.dataTables.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <table id="navbar">
+                <tr>
+                    <td id="tugas"><a href="\Works\1\redesign.html" target="_blank">Session 1</a></td>
+                    <td id="tugas"><a href="\Works\2\HTML List-Link-button.html" target="_blank">Session 2</a></td>
+                    <td id="tugas"><a href="\Works\3\invoice.html" target="_blank">Session 3</a></td>
+                    <td id="tugas"><a href="\Works\4\forms.html" target="_blank">Session 4</a></td>
+                    <td id="tugas"><a href="\Works\5\vid.html" target="_blank">Session 5</a></td>
+                    <td id="tugas"><a href="\Works\6\price.html" target="_blank">Session 6</a></td>
+                    <td id="tugas"><a href="\Works\7\sgn.html" target="_blank">Session 7</a></td>
+                    <td id="tugas"><a href="https://galviinn.github.io/" target="_blank">Session 8</a></td>
+                </tr>
+            </table>
+        </nav>
+    </header><br>
+    <main>
+        <table id="fill">
+            <tr>
+                <td>Sender: </td>
+                <td class="input"><input type="text" name="" id="sender"><br></td>
+            </tr>
+            <tr>
+                <td>Subject: </td>
+                <td class="input"><input type="text" name="" id="subject"></td>
+            </tr>
+            <tr>
+                <td>Message: </td>
+                <td class="input"><textarea name="" id="message" cols="30" rows="10"></textarea></td>
+            </tr>
+        </table><br><br>
+        <div class="buttons">
+            <button id="save">Save Changes</button>
+            <button id="clear">Clear</button>
+        </div><br><br>
+    </main>
+    <footer>	
+        <table id="example" class="display" width="100%"></table>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Sign-up</title>
+        <link rel="stylesheet" href="sgn.css">
+        <script src="sgn.js"></script>
+    </head>
+    <body>
+        <div class="main">
+            <h1>Contact Us!</h1>
+            <p>We would love to receive some honest feedback from you!</p>
+            <table class="maintable">
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="text" placeholder="Your Email" id="mail1" required></td>
+                </tr>
+                <tr>
+                    <td>Username:</td>
+                    <td><input type="text" placeholder="Username"></td>
+                </tr>
+                <tr>
+                    <td>To:</td>
+                    <td><input type="text" placeholder="Destination" id="mail2" required></td>
+                </tr>
+                <tr>
+                    <td>CC:</td>
+                    <td><input type="text" placeholder="CC" id="mail3"></td>
+                </tr>
+                <tr>
+                    <td>BCC:</td>
+                    <td><input type="text" placeholder="BCC" id="mail4"></td>
+                </tr>
+                <tr>
+                    <td>Feedback:</td>
+                    <td><textarea name="messageinput" id="message" cols="20" rows="5" placeholder="Write something..." required></textarea></td>
+                </tr>
+            </table><br><br>
+
+            <div class="buttons">
+                <button>Cancel</button>
+                <button onclick="Submit()" id="subs">Submit</button>
+            </div>
+        </div>
+
+    </body>
+</html>
